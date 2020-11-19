@@ -1,0 +1,30 @@
+.Div {
+  position: fixed;
+  top: 20%;
+  right: 5%;
+  width: 40%;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  align-self: flex-start;
+  margin: auto;
+}
+.Div input {
+  width: 80%;
+  margin: auto;
+  display: block;
+  margin-bottom: 0.5rem;
+  border: 2px solid #3c873a;
+  padding: 0.2rem 0.1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #303030;
+}
+.Div input:focus {
+  outline: none !important;
+  border: 1px solid purple;
+}
+.Div button {
+  display: inline-block;
+}

@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.Navbar {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3c873a;
+  padding: 0.1rem 0.9rem;
+}
